@@ -1,0 +1,114 @@
+/* Global Styles */
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    background-color: #fffae3;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #ffcc5c;
+    padding: 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+h1 {
+    font-size: 3em;
+    color: #ff6f61;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #96ceb4;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff6f61;
+}
+
+/* About Section */
+#about {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    animation: slideIn 2s ease-in-out;
+}
+
+/* Projects Section */
+#projects {
+    padding: 40px 20px;
+    background-color: #ffeead;
+    animation: slideIn 2s ease-in-out;
+}
+
+.project {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 15px;
+    transition: transform 0.5s;
+}
+
+.project:hover {
+    transform: scale(1.1);
+}
+
+/* Contact Section */
+#contact {
+    padding: 40px 20px;
+    background-color: #96ceb4;
+    animation: slideIn 2s ease-in-out;
+}
+
+footer {
+    background-color: #ffcc5c;
+    padding: 10px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(100px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
